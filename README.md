@@ -41,5 +41,5 @@ Still inside the client folder, run the following command to install the depende
 
 `npm start`
 
-The browser will open on the port: http://localhost:8080/ where you can see the app running.
+The browser will open on the port: http://localhost:3000/ where you can see the app running.
 
