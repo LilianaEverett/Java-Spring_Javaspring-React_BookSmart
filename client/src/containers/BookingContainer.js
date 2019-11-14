@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import NewBookingForm from '../components/NewBookingForm';
-import Calendar from '../components/Calendar';
+
 // import '../../public/style/style';
 
 class BookingContainer extends Component {
@@ -48,7 +48,6 @@ class BookingContainer extends Component {
         return(
             <div className="booking-cont">
                 <NewBookingForm onBookingSubmit={this.handleBookingSubmit}/>
-                {/* <Calendar data={this.state.data} /> */}
             </div>
         )
     }
